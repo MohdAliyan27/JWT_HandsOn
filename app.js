@@ -10,6 +10,7 @@ app.get('/api', (req, res) => {
   });
 });
 
+// api post path
 app.post('/api/posts', verifyToken, (req, res) => {  
   jwt.verify(req.token, 'secretkey', (err, authData) => {
     if(err) {
