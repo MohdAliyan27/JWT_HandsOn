@@ -24,6 +24,7 @@ app.post('/api/posts', verifyToken, (req, res) => {
   });
 });
 
+//api login path.
 app.post('/api/login', (req, res) => {
   // Test user
   const user = {
