@@ -1,5 +1,5 @@
 const express = require('express');   //EXPRESS
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');  //JWT Token
 
 const app = express();
 
