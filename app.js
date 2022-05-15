@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');  //JWT Token
 
 const app = express();                //app variable
 
+// path for the api.
 app.get('/api', (req, res) => {
   res.json({
     message: 'Welcome to the API'
