@@ -1,7 +1,7 @@
 const express = require('express');   //EXPRESS
 const jwt = require('jsonwebtoken');  //JWT Token
 
-const app = express();
+const app = express();                //app variable
 
 app.get('/api', (req, res) => {
   res.json({
