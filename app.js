@@ -43,7 +43,7 @@ app.post('/api/login', (req, res) => {
 // FORMAT OF TOKEN
 // Authorization: Bearer <access_token>
 
-// Verify Token
+// Verify Token Function
 function verifyToken(req, res, next) {
   // Get auth header value
   const bearerHeader = req.headers['authorization'];
