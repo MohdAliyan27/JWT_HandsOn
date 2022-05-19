@@ -58,7 +58,7 @@ function verifyToken(req, res, next) {
     // Next middleware
     next();
   } else {
-    // Forbidden error
+    // Forbidden error msg
     res.sendStatus(403);
   }
 
