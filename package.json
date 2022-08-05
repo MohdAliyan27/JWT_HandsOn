@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app"
   },
-  "author": "mohdaliy",
+  "author": "mohdaliya",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
